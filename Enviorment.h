@@ -7,7 +7,9 @@
 #include <variant>
 
 class Enviorment {
+public:
 
+private:
 };
 
 
