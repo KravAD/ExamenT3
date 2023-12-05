@@ -20,6 +20,10 @@ int main() {
 
     Enviorment env;
 
+    env.insert("entero", 10);
+    env.insert("float", 4.5f);
+    env.insert("string", string("Se viene cero"));
+
     return 0;
 }
 
