@@ -9,5 +9,7 @@ void Enviorment::insert(const std::string& symbol, const Enviorment::symbol& val
 }
 
 Enviorment::symbol Enviorment::lookup(const std::string& symbol) const{
-
+    if (symbols_.find(symbol) == symbols_.end()) {
+        throw std::runtime_error("Symbol does not exist");
+    }
 }
