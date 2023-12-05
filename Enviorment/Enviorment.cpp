@@ -18,6 +18,8 @@ Enviorment::symbol Enviorment::lookup(const string& symbol) const{
 
 int main() {
 
+    Enviorment env;
+
     return 0;
 }
 
