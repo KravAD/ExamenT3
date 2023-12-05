@@ -8,6 +8,6 @@ void Enviorment::insert(const std::string& symbol, const Enviorment::symbol& val
     symbols_[symbol] = value;
 }
 
-Enviorment::symbol Enviorment::lookup() const{
+Enviorment::symbol Enviorment::lookup(const std::string& symbol) const{
 
 }
