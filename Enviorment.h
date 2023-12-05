@@ -3,6 +3,7 @@
 #define EXAMENT3_ENVIORMENT_H
 
 #include <map>
+#include <string>
 
 class Enviorment {
 
