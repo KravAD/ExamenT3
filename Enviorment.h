@@ -9,7 +9,7 @@
 class Enviorment {
 public:
     using symbol = std::variant<int, float, std::string>;
-    void insert(const std::string& symbol, const Symbol& value);
+    void insert(const std::string& symbol, const Enviorment::symbol& value);
     symbol lookup(const std::string& symbol) const;
 
 private:
