@@ -16,3 +16,8 @@ Enviorment::symbol Enviorment::lookup(const string& symbol) const{
     return symbols_.at(symbol);
 }
 
+int main() {
+
+    return 0;
+}
+
