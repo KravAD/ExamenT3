@@ -5,15 +5,15 @@
 #include <map>
 #include <string>
 #include <variant>
-
+using namespace std;
 class Enviorment {
 public:
-    using symbol = std::variant<int, float, std::string>;
-    void insert(const std::string& symbol, const Enviorment::symbol& value);
-    symbol lookup(const std::string& symbol) const;
+    using symbol = variant<int, float, string>;
+    void insert(const string& symbol, const Enviorment::symbol& value);
+    symbol lookup(const string& symbol) const;
 
 private:
-    std::map<std::string, symbol> symbols_;
+    map<string, symbol> symbols_;
 };
 
 
