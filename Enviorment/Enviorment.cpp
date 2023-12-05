@@ -24,6 +24,10 @@ int main() {
     env.insert("float", 4.5f);
     env.insert("string", string("Se viene cero"));
 
+    cout << "entero: " << get<int>(env.lookup("entero")) << "\n" << endl;
+    cout << "flotante: " << get<float>(env.lookup("flotante")) << "\n" << endl;
+    cout << "cadena: " << get<std::string>(env.lookup("cadena")) << "\n" << endl;
+
     return 0;
 }
 
