@@ -8,8 +8,12 @@
 
 class Enviorment {
 public:
+    using symbol = std::variant<int, float, std::string>;
+    void insert(const std::string& symbol, const Symbol& value);
+    symbol lookup(const std::string& symbol) const;
 
 private:
+    std::map<std::string, symbol> symbols_;
 };
 
 
