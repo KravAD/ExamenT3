@@ -1,5 +1,6 @@
 #include "Enviorment.h"
 #include <stdexcept>
+#include <iostream>
 using namespace std;
 
 void Enviorment::insert(const string& symbol, const Enviorment::symbol& value) {
